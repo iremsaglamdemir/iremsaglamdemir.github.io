@@ -1,15 +1,15 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-border py-12 px-6 bg-background">
+    <footer className="border-t border-border py-6 px-6 bg-background">
       <div className="max-w-3xl mx-auto">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} İrem Sağlamdemir. All rights reserved.
           </p>
 
-          <div className="flex gap-6 items-center">
+          <div className="flex gap-2 items-center">
             <a
-              href="mailto:i.saglamdemir@uc3m.es"
+              href="mailto:isaglamd@eco.uc3m.es"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               title="Email"
             >

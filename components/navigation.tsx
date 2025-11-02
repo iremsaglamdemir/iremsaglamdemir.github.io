@@ -2,17 +2,15 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 
 export default function Navigation() {
-  const pathname = usePathname()
   const [activeSection, setActiveSection] = useState("home")
 
   const navItems = [
     { id: "home", label: "Home", href: "/#home" },
-    { id: "research", label: "Research", href: "/#research" },
+    { id: "research", label: "Research", href: "/research" },
     { id: "teaching", label: "Teaching", href: "/#teaching" },
-    { id: "cv", label: "CV", href: "/#cv" },
+    { id: "cv", label: "CV", href: "/cv.pdf" },
   ]
 
   return (

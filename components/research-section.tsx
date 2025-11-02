@@ -101,8 +101,8 @@ export default function ResearchSection() {
                     <FileText size={16} />
                     PDF
                   </a>
-                  )
-                }
+                )}
+
               </div>
 
               {expandedId === paper.id && (

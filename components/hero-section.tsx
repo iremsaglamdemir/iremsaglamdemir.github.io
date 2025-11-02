@@ -84,7 +84,7 @@ export default function HeroSection() {
               </a>
               <a
                 href="/cv.pdf"
-                download="Irem_Saglamdemir_CV.txt"
+                download
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-secondary text-foreground rounded-lg hover:bg-secondary/80 transition-colors font-medium text-xs"
               >
                 <Download size={14} />
